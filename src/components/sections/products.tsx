@@ -60,7 +60,7 @@ export function Products() {
   return (
     <section id="produtos" className="container mx-auto px-4">
       <div className="text-center">
-        <h2 className="text-3xl md:text-4xl font-bold font-headline">Nossas Soluções em Tecnologia</h2>
+        <h2 className="text-3xl md:text-4xl font-bold font-headline animate-fade-in-up neon-primary">Nossas Soluções em Tecnologia</h2>
         <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">
           Descubra a linha de produtos Brazil PC que melhor se adapta às suas necessidades.
         </p>

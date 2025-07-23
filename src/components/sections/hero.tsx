@@ -29,14 +29,14 @@ export function Hero() {
           priority
         />
       </div>
-      <div className="relative z-10 container mx-auto px-4 animate-fade-in-up">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-headline tracking-tight text-shadow">
+      <div className="relative z-10 container mx-auto px-4">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-headline tracking-tight animate-fade-in-up neon-primary">
           Tecnologia e Desempenho Sob Medida
         </h1>
-        <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200 text-shadow-sm">
+        <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200 text-shadow-sm animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
           Soluções de computadores Brazil PC para empresas que buscam eficiência, design e suporte especializado.
         </p>
-        <Button size="lg" className="mt-8" asChild>
+        <Button size="lg" className="mt-8 animate-fade-in-up" style={{ animationDelay: '1s' }} asChild>
           <a href="#produtos">Explore Nossas Soluções</a>
         </Button>
       </div>

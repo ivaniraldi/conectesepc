@@ -57,7 +57,7 @@ export function Contact() {
     <section id="contato" className="container mx-auto px-4">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">Entre em Contato</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline animate-fade-in-up neon-primary">Entre em Contato</h2>
           <p className="mt-4 text-muted-foreground">
             Tem alguma dúvida ou quer fazer um orçamento? Preencha o formulário abaixo.
           </p>

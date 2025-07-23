@@ -38,7 +38,7 @@
     --card-foreground: 0 0% 98%;
     --popover: 211 17% 16%;
     --popover-foreground: 0 0% 98%;
-    --primary: 175 71% 45%;
+    --primary: 175, 85%, 50%;
     --primary-foreground: 0 0% 98%;
     --secondary: 211 33% 28%;
     --secondary-foreground: 0 0% 98%;
@@ -71,5 +71,32 @@
   }
   section {
       @apply py-16 sm:py-20 md:py-24;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+  }
+  .text-shadow-sm {
+    text-shadow: 0 1px 2px rgb(0 0 0 / 0.05);
+  }
+  .text-shadow-md {
+    text-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  }
+  .text-shadow-lg {
+    text-shadow: 0 15px 30px rgb(0 0 0 / 0.1);
+  }
+  .text-shadow-none {
+    text-shadow: none;
+  }
+  .neon-primary {
+    color: #fff;
+    text-shadow:
+      0 0 5px hsl(var(--primary)),
+      0 0 10px hsl(var(--primary)),
+      0 0 20px hsl(var(--primary)),
+      0 0 40px hsl(var(--primary)),
+      0 0 80px hsl(var(--primary));
   }
 }

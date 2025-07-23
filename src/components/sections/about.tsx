@@ -6,7 +6,7 @@ export function About() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-4">
-            <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">Sobre Nós</h2>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline animate-fade-in-up neon-primary">Sobre Nós</h2>
             <p className="text-muted-foreground">
               A CONECTE-SE REPRESENTAÇÕES é sua parceira estratégica no fornecimento de tecnologia de ponta. Somos representantes oficiais da Brazil PC, uma marca que se destaca pela qualidade, performance e capacidade de customização de seus equipamentos.
             </p>
