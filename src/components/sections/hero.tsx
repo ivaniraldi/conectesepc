@@ -30,13 +30,13 @@ export function Hero() {
         />
       </div>
       <div className="relative z-10 container mx-auto px-4">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-headline tracking-tight animate-fade-in-up neon-primary">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 font-headline tracking-tight animate-fade-in-up transition-all duration-300 ease-in-out hover:neon-primary hover:scale-105">
           Tecnologia e Desempenho Sob Medida
         </h1>
-        <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200 text-shadow-sm animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
+        <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200 text-shadow-sm animate-fade-in-up transition-transform duration-300 ease-in-out hover:scale-105" style={{ animationDelay: '0.5s' }}>
           Soluções de computadores Brazil PC para empresas que buscam eficiência, design e suporte especializado.
         </p>
-        <Button size="lg" className="mt-8 animate-fade-in-up" style={{ animationDelay: '1s' }} asChild>
+        <Button size="lg" className="mt-8 animate-fade-in-up transition-transform hover:scale-110" style={{ animationDelay: '1s' }} asChild>
           <a href="#produtos">Explore Nossas Soluções</a>
         </Button>
       </div>
