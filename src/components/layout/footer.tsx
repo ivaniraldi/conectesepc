@@ -1,14 +1,15 @@
-import { ClientOnly } from "../client-only";
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 
 const CurrentYear = () => {
-  const [year, setYear] = React.useState(new Date().getFullYear());
+  const [year, setYear] = useState<number | null>(null);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setYear(new Date().getFullYear());
   }, []);
 
-  return <span className="font-semibold">{year}</span>;
+  return year ? <span className="font-semibold">{year}</span> : null;
 }
 
 export function Footer() {
@@ -17,9 +18,8 @@ export function Footer() {
       <div className="container mx-auto flex h-16 items-center justify-center px-4">
         <p className="text-sm text-muted-foreground">
           &copy;{" "}
-          <ClientOnly>
-            <CurrentYear />
-          </ClientOnly>{" "}
+          <CurrentYear />
+          {" "}
           CONECTE-SE REPRESENTAÇÕES. Todos os direitos reservados.
         </p>
       </div>
