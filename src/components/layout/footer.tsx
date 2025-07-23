@@ -1,7 +1,14 @@
 import { ClientOnly } from "../client-only";
+import React from 'react';
 
 const CurrentYear = () => {
-  return <span className="font-semibold">{new Date().getFullYear()}</span>;
+  const [year, setYear] = React.useState(new Date().getFullYear());
+
+  React.useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
+  return <span className="font-semibold">{year}</span>;
 }
 
 export function Footer() {
@@ -19,4 +26,3 @@ export function Footer() {
     </footer>
   );
 }
-    
