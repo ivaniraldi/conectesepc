@@ -20,7 +20,7 @@ export function Hero() {
         style={{ transform: `translateY(${offsetY * 0.4}px)` }}
       >
         <Image
-          src="https://placehold.co/1920x1080"
+          src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?w=1920&h=1080&fit=crop"
           alt="Escritório moderno com tecnologia de ponta"
           data-ai-hint="modern office technology"
           layout="fill"

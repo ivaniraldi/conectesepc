@@ -16,7 +16,7 @@ export function About() {
           </div>
           <div className="relative w-full h-80 rounded-lg overflow-hidden shadow-2xl">
              <Image 
-                src="https://placehold.co/600x400" 
+                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop" 
                 alt="Equipe da Conecte-se em uma reunião" 
                 layout="fill"
                 objectFit="cover"

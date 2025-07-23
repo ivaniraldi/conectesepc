@@ -12,7 +12,7 @@ const products = [
       "Placas de vídeo para todas as necessidades",
       "Gabinete robusto e customizável"
     ],
-    image: "https://placehold.co/600x400",
+    image: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=600&h=400&fit=crop",
     aiHint: "powerful desktop computer"
   },
   {
@@ -25,7 +25,7 @@ const products = [
       "Ideal para escritórios e recepções",
       "Fácil instalação e setup"
     ],
-    image: "https://placehold.co/600x400",
+    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop",
     aiHint: "sleek all-in-one computer"
   },
   {
@@ -38,7 +38,7 @@ const products = [
       "Suporte a múltiplos monitores",
       "Ideal para pontos de venda (PDV) e automação"
     ],
-    image: "https://placehold.co/600x400",
+    image: "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=600&h=400&fit=crop",
     aiHint: "compact slim pc"
   },
   {
@@ -51,7 +51,7 @@ const products = [
       "Organização e visual leve",
       "Configurações personalizadas"
     ],
-    image: "https://placehold.co/600x400",
+    image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&h=400&fit=crop",
     aiHint: "white minimalist computer"
   }
 ];
