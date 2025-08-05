@@ -36,7 +36,7 @@ export function Hero() {
         <p className="text-lg md:text-xl max-w-3xl mx-auto text-slate-200 text-shadow-sm animate-fade-in-up transition-transform duration-300 ease-in-out hover:scale-105" style={{ animationDelay: '0.5s' }}>
           Soluções de computadores Brazil PC para empresas que buscam eficiência, design e suporte especializado.
         </p>
-        <Button size="lg" className="mt-8 animate-fade-in-up transition-transform hover:scale-110" style={{ animationDelay: '1s' }} asChild>
+        <Button size="lg" className="mt-8 animate-fade-in-up transition-transform hover:scale-110 led-button neon-button led-wave" style={{ animationDelay: '1s' }} asChild>
           <a href="#produtos">Explore Nossas Soluções</a>
         </Button>
       </div>

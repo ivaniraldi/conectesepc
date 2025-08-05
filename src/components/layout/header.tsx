@@ -6,13 +6,18 @@ export function Header() {
     { href: "#produtos", label: "Produtos" },
     { href: "#sobre", label: "Sobre Nós" },
     { href: "#contato", label: "Contato" },
+    { href: "/termos-de-vendas", label: "Termos de Vendas" },
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur-sm">
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-4">
         <a href="/" className="flex items-center gap-2" aria-label="Página inicial da Conecte-se Representações">
-          <MonitorSmartphone className="h-7 w-7 text-primary" />
+          <img 
+            src="/logo.png" 
+            alt="Logo Conecte-se" 
+            className="h-10 w-10 rounded-full object-cover"
+          />
           <span className="hidden font-bold sm:inline-block text-lg">
             CONECTE-SE
           </span>
@@ -32,7 +37,7 @@ export function Header() {
           </ul>
         </nav>
         <div className="flex items-center gap-4">
-           <Button asChild>
+           <Button asChild className="led-button neon-button led-wave">
                 <a href="#contato">Compre Agora</a>
            </Button>
         </div>

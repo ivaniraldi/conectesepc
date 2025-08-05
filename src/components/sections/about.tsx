@@ -14,9 +14,9 @@ export function About() {
               Nossa missão é conectar empresas e pessoas às melhores soluções tecnológicas, oferecendo um atendimento consultivo, suporte ágil e produtos que impulsionam o crescimento e a eficiência. Valorizamos a confiança, o compromisso com o cliente e a excelência em tudo que fazemos.
             </p>
           </div>
-          <div className="relative w-full h-80 rounded-lg overflow-hidden shadow-2xl">
+          <div className="relative w-full h-96 rounded-lg overflow-hidden shadow-2xl">
              <Image 
-                src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop" 
+                src="https://i.imgur.com/P7Q85Py.jpeg" 
                 alt="Equipe da Conecte-se em uma reunião" 
                 layout="fill"
                 objectFit="cover"

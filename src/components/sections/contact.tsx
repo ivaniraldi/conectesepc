@@ -104,7 +104,7 @@ export function Contact() {
               )}
             />
             <div className="text-center">
-              <Button type="submit" size="lg" disabled={isSubmitting}>
+              <Button type="submit" size="lg" disabled={isSubmitting} className="led-button neon-button led-wave">
                 {isSubmitting && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
                 {isSubmitting ? 'Enviando...' : 'Enviar Mensagem'}
               </Button>

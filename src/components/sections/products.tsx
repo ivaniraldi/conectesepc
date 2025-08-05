@@ -12,7 +12,7 @@ const products = [
       "Placas de vídeo para todas as necessidades",
       "Gabinete robusto e customizável"
     ],
-    image: "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?w=600&h=400&fit=crop",
+    image: "https://i.imgur.com/IJs4lqU.png",
     aiHint: "powerful desktop computer"
   },
   {
@@ -25,7 +25,7 @@ const products = [
       "Ideal para escritórios e recepções",
       "Fácil instalação e setup"
     ],
-    image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=600&h=400&fit=crop",
+    image: "https://i.imgur.com/bJwZ5qS.png",
     aiHint: "sleek all-in-one computer"
   },
   {
@@ -38,7 +38,7 @@ const products = [
       "Suporte a múltiplos monitores",
       "Ideal para pontos de venda (PDV) e automação"
     ],
-    image: "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=600&h=400&fit=crop",
+    image: "https://i.imgur.com/SyoKkDd.png",
     aiHint: "compact slim pc"
   },
   {
@@ -51,7 +51,7 @@ const products = [
       "Organização e visual leve",
       "Configurações personalizadas"
     ],
-    image: "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=600&h=400&fit=crop",
+    image: "https://i.imgur.com/EgOnJjf.png",
     aiHint: "white minimalist computer"
   }
 ];
@@ -68,8 +68,8 @@ export function Products() {
       <div className="mt-16 space-y-24">
         {products.map((product, index) => (
           <div key={product.title} className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
-            <div className={`relative aspect-square md:aspect-video rounded-lg overflow-hidden shadow-2xl transition-transform duration-500 hover:scale-105 ${index % 2 === 1 ? 'md:order-last' : ''}`}>
-              <Image src={product.image} alt={product.title} layout="fill" objectFit="cover" data-ai-hint={product.aiHint} className="bg-secondary" />
+            <div className={`relative aspect-square md:aspect-video rounded-lg overflow-hidden transition-transform duration-500 hover:scale-105 ${index % 2 === 1 ? 'md:order-last' : ''}`}>
+              <Image src={product.image} alt={product.title} layout="fill" objectFit="cover" data-ai-hint={product.aiHint} className="" />
             </div>
             <div className="space-y-4">
               <h3 className="text-2xl lg:text-3xl font-bold font-headline text-primary">{product.title}</h3>

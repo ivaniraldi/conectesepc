@@ -37,7 +37,7 @@ export function WhatsappButton() {
         isVisible ? "scale-100" : "scale-0"
       }`}
     >
-      <Button size="icon" className="w-14 h-14 rounded-full shadow-lg">
+      <Button size="icon" className="w-14 h-14 rounded-full shadow-lg led-button neon-button led-wave">
         <WhatsAppIcon />
       </Button>
     </a>
